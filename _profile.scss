@@ -1,0 +1,103 @@
+
+.profile {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $cyanDarK;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    .backgroundTop, .backgroundBot {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .backgroundTop{
+        transform: translate(-450px,-500px);
+    }
+
+    .backgroundBot {
+        transform: translate(450px,500px);
+    }
+    .profile-wrapper {
+        z-index: -1;
+        background-color: white;
+        border-radius: 15px;
+        width: 90vw;
+        max-width: 400px;
+        .top  
+        {
+            position: relative;
+            .photo {
+                width: 100%;
+                height: 100%;
+                top: 0;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 96px;
+                    border-radius: 50%;
+                    border: 5px solid white;
+                }
+        }
+        .card-back {
+            border-radius: 15px 15px 0px 0px;
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+        }   
+
+
+
+        .user {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 160px;
+            .name {
+                padding: 50px 0px 10px 0px;
+                h1 {
+                    font-size: $normalPc;
+                    span {
+                        font-size: $smallPc;
+                        color: $gray;
+                    }
+                }
+            }
+            .city {
+                padding-bottom: 20px;
+                h3 {
+                    font-size: $smallPc;
+                    color: $gray;
+                }
+            }
+        }
+
+        .socials {
+            border-top: 1px solid $gray;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 25px;
+            .social {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2 {
+                    font-size: $normalPc;
+                }
+                h3 {
+                    padding-top: 10px;
+                    font-size: $smallPc;
+                    color: $gray;
+                }
+            }
+        }
+    }
+}

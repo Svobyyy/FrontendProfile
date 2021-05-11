@@ -1,0 +1,18 @@
+$cyanDarK: hsl(185, 75%, 39%);
+$blueSatur: hsl(229, 23%, 23%);
+$blueGray: hsl(227, 10%, 46%);
+$gray: hsl(0, 0%, 59%);
+$bigPc: 21px;
+$normalPc: 18px;
+$smallPc: 15px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Kumbh Sans', sans-serif;
+}

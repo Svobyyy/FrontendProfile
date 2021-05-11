@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.profile {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #19a2ae;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.profile .backgroundTop, .profile .backgroundBot {
+  position: absolute;
+  z-index: -1;
+}
+
+.profile .backgroundTop {
+  -webkit-transform: translate(-450px, -500px);
+          transform: translate(-450px, -500px);
+}
+
+.profile .backgroundBot {
+  -webkit-transform: translate(450px, 500px);
+          transform: translate(450px, 500px);
+}
+
+.profile .profile-wrapper {
+  z-index: -1;
+  background-color: white;
+  border-radius: 15px;
+  width: 90vw;
+  max-width: 400px;
+}
+
+.profile .profile-wrapper .top {
+  position: relative;
+}
+
+.profile .profile-wrapper .top .photo {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile .profile-wrapper .top .photo img {
+  width: 96px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.profile .profile-wrapper .top .card-back {
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile .profile-wrapper .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 160px;
+}
+
+.profile .profile-wrapper .user .name {
+  padding: 50px 0px 10px 0px;
+}
+
+.profile .profile-wrapper .user .name h1 {
+  font-size: 18px;
+}
+
+.profile .profile-wrapper .user .name h1 span {
+  font-size: 15px;
+  color: #969696;
+}
+
+.profile .profile-wrapper .user .city {
+  padding-bottom: 20px;
+}
+
+.profile .profile-wrapper .user .city h3 {
+  font-size: 15px;
+  color: #969696;
+}
+
+.profile .profile-wrapper .socials {
+  border-top: 1px solid #969696;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 25px;
+}
+
+.profile .profile-wrapper .socials .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile .profile-wrapper .socials .social h2 {
+  font-size: 18px;
+}
+
+.profile .profile-wrapper .socials .social h3 {
+  padding-top: 10px;
+  font-size: 15px;
+  color: #969696;
+}
+/*# sourceMappingURL=style.css.map */
